@@ -19,9 +19,9 @@ return "Nice"
 end
 
 def last_evaluated_value
-
+  evaluated_value = 'expert'
 end
 
-def pizza_party
-
+def pizza_party(topping = cheese)
+topping
 end
